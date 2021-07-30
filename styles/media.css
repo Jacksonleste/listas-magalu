@@ -1,0 +1,12 @@
+@media (max-width: 1400px){
+    #div-cards{
+        width: 100vw;
+    }
+}
+
+@media (max-width: 1035px){
+    .card {
+        width: 30rem;
+        font-size: 1.5rem;
+    }
+}
