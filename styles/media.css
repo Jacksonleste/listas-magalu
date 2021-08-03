@@ -10,3 +10,17 @@
         font-size: 1.5rem;
     }
 }
+
+@media (max-width: 695px){
+    .card{
+        margin: .5rem;
+        font-size: 1.3rem;
+        width: 45%;
+        height: auto;
+        line-height: 1.5rem;
+    }
+
+    #title2{
+        font-size: 3rem;
+    }
+}

@@ -66,6 +66,8 @@ header {
 #title2{
     padding-top: 5.5rem;
     padding-bottom: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     text-align: center;
     font-weight: 700;
     font-size:  4rem;
@@ -126,6 +128,10 @@ footer h2 {
     color: #ffffff;
 }
 
+.div-cards.footer{
+    flex-wrap: nowrap;
+}
+
 .footer-card {
     margin: .8rem;
     border-radius: .5rem;
@@ -140,4 +146,11 @@ footer h2 {
 .footer-card img {
     margin-top: 1rem;
     width: 22.5rem;
+    margin-bottom: 5rem;
 }
+
+.footer-card p, li, ul{
+    margin-left: 3rem;
+    text-align: left;   
+}
+
