@@ -25,7 +25,6 @@ header {
     padding-top: 5rem;
     margin: 0;
     text-align: center;
-    width: 100vw;
     font-size: 3.6rem;
 }
 
@@ -57,9 +56,8 @@ header {
 }
 
 #head-img {
-    padding-top: 1.5rem;
-    height: 32rem;
-    width: 35.5rem;
+    height: 33.4rem;
+    width: 37rem;
 }
 
 
@@ -194,4 +192,3 @@ footer {
     background-color: #A400E1;
     color: white;
 }
-
