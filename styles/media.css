@@ -9,7 +9,43 @@
         width: 30rem;
         font-size: 1.5rem;
     }
+
+    #texts{
+    padding-right: 5.8rem;
+    }
 }
+
+@media (max-width: 950px){
+    #text1 {
+        padding-bottom: 1rem;
+        width: 40rem;
+        font-size:  3.6rem;
+        line-height: 4rem;
+    }
+    
+    #text2 {
+        width: 40rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media (max-width: 750px){
+    #text1 {
+        padding-bottom: 1rem;
+        width: 25rem;
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    
+    #text2 {
+        width: 25rem;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+}
+
+
 
 @media (max-width: 695px){
     .card{
@@ -22,5 +58,72 @@
 
     #title2{
         font-size: 3rem;
+    }
+
+    .footer-card {
+        width: 40vw;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin-left: 0;
+        padding: 0 1rem;
+    }
+
+    .footer-card img{
+        width: 40vw;
+    }
+
+    .footer-card p, li, ul{
+        margin-left: 1rem;
+        text-align: left;   
+    }
+
+    .button{
+        margin: 3rem 0 2rem 0;
+        font-size: 1.2rem;
+        padding: 1rem 1.5rem;
+    }
+    
+    #title3 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 550px){
+
+    #header-content{
+        padding-left: 4vw;
+    }
+
+    #texts{
+        padding-right: 4rem;
+    }
+}
+
+@media (max-width: 460px){
+    #text1 {
+        width: 15rem;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
+    
+    #text2 {
+        width: 15rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+}
+
+@media (max-width: 406px){
+
+
+    .footer-card {
+        font-size: .9rem;
+        line-height: 1.5rem;
+    }
+
+    .button{
+        font-size: 1rem;
+        margin: 2rem 0 2rem 0;
+
     }
 }

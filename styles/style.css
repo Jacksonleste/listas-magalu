@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    text-decoration: none;
 }
 
 html, body {
@@ -31,12 +32,13 @@ header {
 #header-content{
     overflow: hidden;
     display: flex;
-    width: 60vw;
-    margin: auto;
+    padding-left: 15vw;
+    padding-right: 5rem;
+
 }
 
 #texts {
-    padding-right: 5.8rem;
+    padding-right: 10rem;
 }
 
 #text1 {
@@ -90,10 +92,19 @@ header {
     border-radius: .5rem;
     width: 45.5rem;
     height: 23.5rem;
-    box-shadow: black 0rem 0rem .5rem;
+    background-color: white;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 0rem 0rem .5rem;
 
     line-height: 2.6rem;
     font-size: 2rem;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.5) .2rem .5rem .5rem;
+    margin-top: 0;
+
+    transform: scale(1.05);
 }
 
 .card h2{
@@ -119,7 +130,7 @@ footer {
     margin-top: 5rem;
 }
 
-footer h2 {
+#title3 {
     padding-top: 3rem;
     padding-bottom: 2.8rem;
     text-align: center;
@@ -136,12 +147,17 @@ footer h2 {
     margin: .8rem;
     border-radius: .5rem;
     width: 30rem;
-    height: 44.5rem;
+    height: auto;
     box-shadow: black 0rem 0rem .5rem;
     background-color: white;
     line-height: 2.7rem;
     font-size: 2rem;
 }
+
+.footer-card:hover{
+    transform: scale(1.05);
+}
+
 
 .footer-card img {
     margin-top: 1rem;
@@ -152,5 +168,30 @@ footer h2 {
 .footer-card p, li, ul{
     margin-left: 3rem;
     text-align: left;   
+}
+
+.button {
+    margin: 6rem 0 3rem 0;
+    padding: 1.4rem 2rem;
+    font-size: 2rem;
+
+    border: black solid .2rem;
+    border-radius: 3rem;
+    box-shadow: 0 .2rem .2rem rgba(0,0,0,0.35);
+}
+
+.button:hover{   
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,0.6);
+    
+}
+
+.button.red{
+    background-color: #FF253A;
+    color: white;
+}
+
+.button.purple{
+    background-color: #A400E1;
+    color: white;
 }
 
